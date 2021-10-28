@@ -27,16 +27,16 @@ const App: () => Node = () =>{
       <ScrollView>
         <Text style={styles.titolRoig}>Benvinguts a React Native</Text>
         <Text style={styles.primerExercici}>Este sera el primer exercici</Text>
-        <Text style={{fontFamily: "normal"},styles.tamaño}>Font Normal</Text>
-        <Text style={{fontFamily: "notoserif"},styles.tamaño}>Font notoserif</Text>
-        <Text style={{fontFamily: "sans-serif"},styles.tamaño}>Font sans-serif</Text>
-        <Text style={{fontFamily: "sans-serif-ligth"},styles.tamaño}>Font sans-serif-ligth</Text>
-        <Text style={{fontFamily: "sans-serif-thin"},styles.tamaño}>Font sans-serif-thin</Text>
-        <Text style={{fontFamily: "sans-serif-condensed"},styles.tamaño}>Font sans-serif-condensed</Text>
-        <Text style={{fontFamily: "sans-serif-medium"},styles.tamaño}>Font sans-serif-medium</Text>
-        <Text style={{fontFamily: "serif"},styles.tamaño}>Font serif</Text>
-        <Text style={{fontFamily: "Roboto"},styles.tamaño}>Font Roboto</Text>
-        <Text style={{fontFamily: "monospace"},styles.tamaño}>Font monospace</Text>
+        <Text style={{fontFamily: "normal"}}>Font Normal</Text>
+        <Text style={{fontFamily: "notoserif"}}>Font notoserif</Text>
+        <Text style={{fontFamily: "sans-serif"}}>Font sans-serif</Text>
+        <Text style={{fontFamily: "sans-serif-ligth"}}>Font sans-serif-ligth</Text>
+        <Text style={{fontFamily: "sans-serif-thin"}}>Font sans-serif-thin</Text>
+        <Text style={{fontFamily: "sans-serif-condensed"}}>Font sans-serif-condensed</Text>
+        <Text style={{fontFamily: "sans-serif-medium"}}>Font sans-serif-medium</Text>
+        <Text style={{fontFamily: "serif"}}>Font serif</Text>
+        <Text style={{fontFamily: "Roboto"}}>Font Roboto</Text>
+        <Text style={{fontFamily: "monospace"}}>Font monospace</Text>
       </ScrollView>
     </View>
   );
